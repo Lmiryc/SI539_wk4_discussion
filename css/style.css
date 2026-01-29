@@ -66,3 +66,35 @@ footer {
     text-align: center;
     color: #2c1810;
 }
+
+.special {
+    background-color: #ff6b6b;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-right: 3px dotted #ffffff;
+    border-bottom:  4px dotted #ffffff;
+}
+
+.highlight {
+    background-color: #d2b48c;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color:#8b4513;
+    background-color: aqua;
+}
+h2:hover{
+    color:purple;
+}
+nav a:focus{
+    outline: 3px solid #FFD700;
+}
+
+nav li:last-child{
+    font-size: larger;
+    background-color: yellow;
+    color: grey;
+}
